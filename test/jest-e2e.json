@@ -1,0 +1,23 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@config/(.*)$": "<rootDir>/src/config/$1",
+    "@config": "<rootDir>/src/config",
+    "@vendor-app/config/(.*)$": "<rootDir>/src/config/$1",
+    "@vendor-app/config": "<rootDir>/src/config",
+    "@vendor-app/core/(.*)$": "<rootDir>/src/core/$1",
+    "@vendor-app/core": "<rootDir>/src/core",
+    "@vendor-app/users/(.*)$": "<rootDir>/src/users/$1",
+    "@vendor-app/users": "<rootDir>/src/users",
+    "@vendor-app/products/(.*)$": "<rootDir>/src/products/$1",
+    "@vendor-app/products": "<rootDir>/src/products",
+    "@vendor-app/deposits/(.*)$": "<rootDir>/src/deposits/$1",
+    "@vendor-app/deposits": "<rootDir>/src/deposits"
+  }
+}
