@@ -1,4 +1,4 @@
-#Vending Machine API Built with NodeJS(NestJs)
+#Vending Machine API Built with NodeJS(NestJs) and Mongo DB
 
 ## Installation
 
